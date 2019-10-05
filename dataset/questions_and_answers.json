@@ -1,0 +1,503 @@
+[
+    {
+        "Tags":["software"],
+        "Question": "What is Software Engineering?",
+        "Answers": [
+            "Software Engineering is a process of developing a software product in a well-defined systematic approach.",
+            "developing a software by using scientific principles, methods, and procedures."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is the need to learn Software Engineering Concepts?",
+        "Answers": [
+            "Imagine a person, who is good at building a wall may not be good at constructing a house. In a similar way, a person who can write programs does not have the knowledge to develop and implement the software in a well-defined systematic approach. Hence, there is a need for programmers to adhere to software engineering concepts such as requirements gathering, planning, development, testing, and documentation."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is SDLC OR Software Development Life Cycle?",
+        "Answers": [
+            "SDLC defines a set of guidelines to develop a software product. SDLC has different phases namely: Gathering Requirements, Analysis, Planning, Development, Testing, Implementation, Maintenance, and Documentation. The order of the phases mentioned in SDLC may vary depending upon the model chosen to implement."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What are the different types of models available in SDLC?",
+        "Answers": [
+            "Many models have been proposed, to carry out the software implementation efficiently. Some of them include the Waterfall Model, Agile Model, Spiral Model, Iterative Model, V-Model etc."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question": "Explain the role of a Software Project Manager?",
+        "Answers": [
+            "This is the common software Engineering Interview Questions asked in an interview. Project Manager is responsible for driving the software project in a systematic approach. Some of the key roles & responsibilities of a software project manager include project planning, tracking the progress of the project, risk management, resource management, execution of development activities, delivering the project under cost, time and quality constraints."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is a Software Project Scope?",
+        "Answers": [
+            "A scope is utilized to outline the activities performed to design, develop and deliver a software product. In other words, scope contains information on what project is intended to deliver and what it does not intend to. The scope also outlines information on what software product developed contains and what it does not contain."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is Software Project Estimation?",
+        "Answers": [
+            "Project Estimation is a process utilized to calculate the development costs such as effort, time and resources required to deliver a project. Project Estimations are derived through past project experiences or with the help of consulting experts or with the help of standard predefined business formulas."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"Explain Functional Points?",
+        "Answers": [
+            "Functional points are used to measure the size of the software product. In some business, scenarios play a key role in tracking and estimating the project delivery."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is a Baseline?",
+        "Answers": [
+            "Baselines are put forth by the project managers to track the overall project delivery. Baselines are usually placed to track the overall tasks listed under a phase or stage. Baselines help project managers to track and monitor the overall execution of a project."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is Software Configuration Management?",
+        "Answers": [
+            "Software Configuration Management helps users to track the overall changes made in a software product delivery. Updates or changes made to the software are tracked in terms of development and requirements gathering."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is Change Control?",
+        "Answers": [
+            "Change control tracks the changes made in a software to ensure consistency and updates are incorporated as per the enterprise standards."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"Mention few project management tools?",
+        "Answers": [
+            "Many project management tools are utilized as per the enterprise standards some of them include: Gantt Charts, PERT Charts, Milestone Checklists, Histograms, MS project, Status reports etc."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is a Software requirement?",
+        "Answers": [
+            "Requirements play a key role in providing a detailed description of the software product being developed. Software requirements help the developers and other support teams associated with project delivery, to understand the proposed target system and their expectations on it."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"Explain the Feasibility Study?",
+        "Answers": [
+            "Feasibility Study is performed to assess the beneficial and practical attributes of a software development Thorough analysis is performed by an organization with the help of feasibility study to understand the economic, operational and technical aspects involved in a software project delivery.",
+            "Economic: Economic study involves costs related to resource management, training costs, tools utilized and project estimation costs",
+            "Technical: Technical study helps the business to analyze the technical aspects involved in software delivery such as machines, operating systems, knowledge, and skills of resource allocated, tools utilized and training.",
+            "Operational: Operational study help business to study the change management and issues involved depending on the project needs."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What are functional and non- functional requirements?",
+        "Answers": [
+            "Functional requirements are utilized to specify the functional features as per the business requirements. For Example, adding a payment option to buy content from a website. Whereas Non- functional requirements provide insights into security, performance, user interface, interoperability costs etc."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What are Software Metrics?",
+        "Answers": [
+            "Metrics are utilized to guide the software product delivery as per the business standards. Metrics can also be used to measure few features of software product delivery. Metrics are divided into requirement metrics, product metrics, performance metrics, and process metrics."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is Modularization?",
+        "Answers": [
+            "Modularization divides the software system tasks in multiple modules. These modules are independent to other modules and tasks invoked in each module are executed independently."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"Explain Concurrency and how is it achieved during the software product delivery?",
+        "Answers": [
+            "This is the advanced software Engineering Interview Questions asked in an interview. Concurrency is a process of executing multiple events or tasks simultaneously. Concurrency can be achieved with the help of modules, events, and tasks associated with the software project delivery."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is Cohesion?",
+        "Answers": [
+            "Cohesion is utilized to measure the intra-dependability among various attributes defined in a module."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is coupling?",
+        "Answers": [
+            "Coupling is utilized to measure the inter-dependability of various elements defined in a module."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"Mention a few software analysis & Design tools?",
+        "Answers": [
+            "Some of the key software analysis & design tools are Data flow Diagrams (DFD), Structured Charts, Data Dictionary, UML (Unified Modeling Languages) diagrams, ER (Entity Relationship) Diagrams etc."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is DFD Level 0?",
+        "Answers": [
+            "DFD (Data Flow Diagrams) Level 0 depict the entire data flow along with all abstract details within a software information system. This type of DFD is also known as Context level DFD."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is Data Dictionary?",
+        "Answers": [
+            "A data dictionary is also known as metadata. Data Dictionary is utilized to capture the information related to naming conventions of objects and files utilized in the software project."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What is black box testing and white box testing?",
+        "Answers": [
+            "Black Box Testing: Black box testing is performed to validate the outputs along with valid inputs given. But, it does not test the implementation part of the program.",
+            "White Box Testing: White Box testing is performed to validate the inputs, outputs and program implementation involved in its execution."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"What are the various types of software maintenance?",
+        "Answers": [
+            "Maintenance types are corrective, adaptive, perfective and preventive.",
+            "Corrective: This type of maintenance is used to remove the errors spotted by business users.",
+            "Adaptive: This maintenance activity is performed to check the changes made in the hardware and software environment.",
+            "Perfective: This type of maintenance is used to implement changes in existing or new user requirements",
+            "Preventive: This maintenance activity is performed to avoid any issues in future implementations."
+        ]
+    },
+    {
+        "Tags":["software"],
+        "Question":"Explain CASE tools?",
+        "Answers": [
+            "CASE (Computer Aided Software Engineering tools) are utilized to implement, support, and accelerate various SDLC activities involved in a software project."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What is Automation testing and what are its different types?",
+        "Answers": [
+            "The main purpose of automation is to replace manual intervention within systems or devices which are being used. It mainly focuses on enhancing the efficiency of the system. There are many tools that are being used in the market which provide the facility of using different types of scripts to enter data and execute the test steps. There are different types of testing that can be done through automation. These include unit tests, GUI tests, and functional tests. The unit tests are done in the development phase and they assist in reducing bugs. These are usually the responsibility of the developer. The second type of test is GUI tests for which tests are scripted to test the user interfaces of all applications and how they behave. The functional tests are also done at the testing level. They help in stimulating the different functional scenarios which help in testing different applications and provide different inputs and expected outputs."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Explain the criteria for selecting a test case for the process of automation?",
+        "Answers": [
+            "The following steps should be taken into consideration for automating a test case.",
+            "Find out the execution frequency of the test case. It should be checked how often a new build is run and how it works when it is run with large inputs.",
+            "Automating a particular scenario must save time. It should be found out that the automation if created is saving time or not. This should be found out by doing exploratory testing.",
+            "It should also be determined how critical the test case is and how to cover the end to end test case scenarios.",
+            "It should be made sure that analysis through an automated test should not exceed the time which is taken through manual execution.",
+            "It should be liable to catch as many defects as possible."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"List the different automation frameworks which are available and explain them in short?",
+        "Answers": [
+            "There are five types of the framework used in Automation",
+            "Linear Scripting Framework: This is a very basic type of testing that works in the form of record and playback. It can be used to test small applications with less complexity.",
+            "Data-Driven Framework: This is done by creating different sets of test data. Automation scripts are created by making use of this data. The test data includes input, the expected output, and the result should be stored in files as per requirement.",
+            "Modular Testing Framework:  Here the entire application is divided into different modules. The test scripts can be combined to create larger test scripts. All modules are tested and later combined.",
+            "Keyword-driven Framework: In this framework, it is important to define keywords and use this keyword to define the action which it will perform. The keywords are specified in the excel sheet and the scripts use these to run test cases.",
+            "Hybrid Testing Framework: Hybrid frameworks are a combination of two or more frameworks. It can consider the benefits of all frameworks that are being used and work accordingly."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Explain the steps to implement automation and what will be the steps involved?",
+        "Answers": [
+            "To implement a good automation test, the goal of the test should be clear. It should be found out what the tests are doing to automate. Once these points are clear, a tool can be finalized for carrying out the automation. By checking the feasibility of what can be tested the scope of automation can be decided. The user can decide accordingly which cases need to be automated. Once the scope is decided, you can check the actions which are needed to be performed. Accordingly, test scripts and suits should be developed. Once the steps are clear the execution can be started, and this is done directly by the automation tool. The tool stores the logs which can help in determining the results. After successful testing, reports can be generated and published."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What kind of test cases are not suitable for automation?",
+        "Answers": [
+            "The test cases which are not stable and the test cases which require changes frequently are not chosen to be automated. Also, the test cases which are not run regularly should not be considered for automation."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"How can you map the success of automation testing?",
+        "Answers": [
+            "The success of any automation can be measured by checking below:",
+            "There is a reduction in labor and other manual tasks.",
+            "The number of defects that are being detected are more than the ones when they were being detected manually.",
+            "The execution time is faster, and time is saved so that other tasks can be performed."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Which are the famous tools that are being used for testing?",
+        "Answers": [
+            "The common automation tools are",
+            "QTP",
+            "Selenium Web driver",
+            "Soap UI",
+            "Rational Robot",
+            "Squish for QT"
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Can automation testing replace manual testing?",
+        "Answers": [
+            "It is not possible to replace manual testing completely. Automation works as a continuation of manual testing. There can be many situations where the expertise, understanding of business and insight of the tester can be important."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Can Web driver test Mobile applications?",
+        "Answers": [
+            "Web driver does not have the capability of automating mobile applications. It is developed for testing web applications and hence cannot test mobile applications."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Which tests can be associated with automation testing?",
+        "Answers": [
+            "Test cases that involve load tests, sanity and regression tests can be considered for automation testing."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What do you know about Framework?",
+        "Answers": [
+            "The framework is nothing but a set of rules which we having to follow in a systematic way to achieve the desired goal. In Java, there are many frameworks available such as MVC Frameworks to develop applications and to build up the unit test cases and also to perform the automation testing."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What is the Test Automation Frameworks?",
+        "Answers": [
+            "This is the basic Java Testing Interview Questions asked in an interview. Below are some popular Test Automation Frameworks:",
+            "Modular Testing Framework.",
+            "Keyword Driven Testing Framework.",
+            "Hybrid Testing Framework.",
+            "Data Driven Testing Framework."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Why did you want to use Framework?",
+        "Answers": [
+            "In Test Automation Framework we need to handle with many files. To organize those files and complete all tasks in a systemic way and to achieve the goal successfully we have to take the support of any Framework."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What are the main advantages of using Test Automation Framework?",
+        "Answers": [
+            "There are many advantages of using Test Automation Frameworks. Among those, some are given below.",
+            "Automation Testing is faster and better than Manual Testing. So using Test Automation Framework it saves time as well as money.",
+            "In Automation Testing the probability of getting work test result after execution of any test cases is very low compared to Manual Testing. So it is more reliable.",
+            "We can get the test report automatically after execution of test cases. No manual intervention required for the same",
+            "Reusability of Code is one of the main advantages of using Automation Testing.",
+            "Minimal manual intervention required in Test Automation Framework."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Which Framework you have used in your Selenium Project?",
+        "Answers": [
+            "In Selenium Project we mostly use Java language to develop. Though Selenium supports multi-languages to develop Java with Selenium is the best match. Selenium Project that we have worked upon basically used Data Driven Testing Framework where Page Object Model design pattern has been used along with Page Factory."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Where do you apply Object Oriented Programming Concept in Test Automation Framework?",
+        "Answers": [
+            "OOPs is used in most of the places while writing Test Automation Framework. There are many OOPs concept that has been used for Test Automation Frameworks such as Abstraction, Polymorphism, Inheritance, Interface, Method Overloading and Overriding and Encapsulation.In case of Abstraction, we need to write locators like XPath, name, id etc. inside Page Class for Page Object Model Design Pattern. In the case of Interface, Selenium uses WebDriver which is an Interface. Likewise, the other OOPs concept has been used in Test Automation Framework in different scenarios."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What do you mean by Automation Testing?",
+        "Answers": [
+            "Automation testing is a process of software testing where minimal manual intervention required and this is used for software testing by executing some test cases to find out the defects and share the automated test result after execution. Many tools are available to perform this automation testing like Selenium Web Driver, Appium, Cucumber, Test Studio, RSpec and so on."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What type of Test Cases did you prefer to be automated?",
+        "Answers": [
+            "The test cases I preferred to be automated are as below:",
+            "Sanity Test Cases",
+            "Regression Test Cases",
+            "Smoke Test Cases"
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"Why do you like to use Selenium?",
+        "Answers": [
+            "This is the frequently asked Java Testing Interview Questions asked in an interview. I would like to use Selenium Automation Testing tool for the below reasons.",
+            "Selenium is free to download and use and also open source.",
+            "Cross browser compatibility supports by Selenium.",
+            "Multi-language support and very easy compatibility with Java.",
+            "Large no of users are using Selenium as test Automation tool that’s why the help communities are larger compared to the other test Automation tools."
+        ]
+    },
+    {
+        "Tags":["testing"],
+        "Question":"What type of test cases you would not prefer to be automated?",
+        "Answers": [
+            "Based on the Project Stability the test cases that changes frequently or the test cases that I need to run rarely or only one time, I would not pick up those to be automated."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"How will you define Django programming Language?",
+        "Answers": [
+            "Django is a web framework in python to develop a web application in python. Django is a free and open source web application framework, written in Python. Django makes easier to build better web applications quickly and with less code."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"Can you explain different features of Django programming Language?",
+        "Answers": [
+            "Below is the list of features offered by Django:",
+            "A free, rich API",
+            "Automatic database table creation",
+            "Admin Interface",
+            "Tempting",
+            "Form Handling",
+            "A dynamic admin interface generator",
+            "A syndication feed framework",
+            "A powerful cache framework for dynamic websites",
+            "A powerful built-in template system",
+            "Easy database migrations",
+            "Security features",
+            "Other helpful add-ons",
+            "Internationalization",
+            "Object Relational Mapping",
+            "Testing Framework",
+            "Session, user management, role-based permission",
+            "Elegant URL design",
+            "Cache System"
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"Explain the architecture of Django?",
+        "Answers": [
+            "Django architecture consists of:",
+            "Models: It describes your database schema and your data structure",
+            "Views: It controls what a user sees, the view retrieves data from appropriate models and execute any calculation made to the data and pass it to the template",
+            "Templates: It determines how the user sees it. It describes how the data received from the views should be changed or formatted for display on the page",
+            "Controller: It is the heart of the system. It handles request and responses, setting up database connections and loading add-ons and specifies Django framework and URL parsing."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"Why should Django be used for web development?",
+        "Answers": [
+            "Django should be used for web development because of following reasons:",
+            "It allows dividing code module into logical groups to make it flexible to change.",
+            "To easy the website administration, it provides auto-generated web admin module.",
+            "It provides pre-packaged API for common user tasks.",
+            "It enables to define what should be URL for given function.",
+            "It enables to separate business logic from the HTML.",
+            "Everything is written in Python programming language.",
+            "It gives you template system to define HTML template for your web page to avoid code duplication"
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"Can you explain the working philosophy of Django?",
+        "Answers": [
+            "Django can be broken into many components:",
+            "Models.py file: This file defines your data model by extending your single line of code into full database tables and add a pre-built administration section to manage content.",
+            "Urls.py file: It uses a regular expression to capture URL patterns for processing.",
+            "Views.py file: It is the main part of Django. The actual processing happens in view.",
+            "When a visitor lands on Django page:",
+            "Django checks the various URLs pattern you have created and uses the information to retrieve the view.",
+            "The view processes the request, querying your database if necessary",
+            "The view passes the requested information on to your template.",
+            "The template renders the data in a layout you have created and displays the page."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"What are the inheritance properties in Django?",
+        "Answers": [
+            "There is three possible inheritance in Django:",
+            "Abstract base classes: This style is used when you only want parent’s class to hold information that you don’t want to type out for each child model.",
+            "Multi-table Inheritance: This style is used if you are sub-classing an existing model and need each model to have its own database table.",
+            "Proxy models: This style is used, if you only want to modify the Python level behavior of the model, without changing the model’s fields."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"How can you setup Database in Django?",
+        "Answers": [
+            "To set up a database in Django, you can use the command edit my site/ setting.py, it is a normal python module with module level representing Django settings.Django uses SQLite database by default. It is easy for Django users because it doesn’t require any other type of installation. In the case of other databases, you have the following keys in the DATABASE ‘default’ item to match your database connection settings.",
+            "Engines: you can change database by using ‘django.db.backends.sqlite3’ , ‘django.db.backeneds.mysql’, ‘django.db.backends.postgresql_psycopg2’, ‘django.db.backends.oracle",
+            "Name: The name of your database. In the case if you are using SQLite as your database, in that case, a database will be a file on your computer, Name should be a full absolute path, including the file name of that file.",
+            "You can add setting likes setting like Password, Host, User, etc. in your database, if you are not choosing SQLite as your database."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"How can you set up static files in Django?",
+        "Answers": [
+            "There are three main things required to set up static files in Django:",
+            "Set STATIC_ROOT in settings.py",
+            "run manage.py collect static",
+            "set up a Static Files entry on the PythonAnywhere web tab"
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"What is the use of session framework in Django?",
+        "Answers": [
+            "The session framework facilitates you to store and retrieve arbitrary data on a per-site visitor basis. It stores data on the server side and abstracts the receiving and sending of cookies. A session can be implemented through a piece of middleware."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"What is the usage of middlewares in Django?",
+        "Answers": [
+            "Below are the usage of middlewares in Django:",
+            "Session management",
+            "Cross-site request forgery protection",
+            "Use authentication",
+            "Content Gzipping"
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"What are the roles of receiver and sender in signals?",
+        "Answers": [
+            "The roles of receiver and sender in signals are:",
+            "Receiver: It specifies the callback function which will be connected to the signal.",
+            "Sender: It specifies a particular sender to receive a signal from."
+        ]
+    },
+    {
+        "Tags":["django"],
+        "Question":"What does Django templates contain?",
+        "Answers": [
+            "Django template is a simple text file. It can create any text-based format like XML, CSV, HTML, etc. A template contains variables that get replaced with values when the template is evaluated and tags (%tag%) that control the logic of the template."
+        ]
+    }
+]
