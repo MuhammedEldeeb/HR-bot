@@ -499,114 +499,539 @@
         "Answers": [
             "Django template is a simple text file. It can create any text-based format like XML, CSV, HTML, etc. A template contains variables that get replaced with values when the template is evaluated and tags (%tag%) that control the logic of the template."
         ]
+    },{
+        "Tags" : ["java"],
+        "Question" : "Java has introduced a different version in almost last couple of years. Collection framework is always a highlighted package for Java, so every version of Java always came with some key features specifically on the Collection framework. Please explain what are the new features came with the collection framework for Java 8 version?",
+        "Answers":[
+            "Java 8 version already came with some of the key or major changes in Java Collection Framework, features are explaining below:",
+            "Stream API for Java: for supporting some of the sequential and parallel processing.",
+            "Introducing the for Each method specifically for iterator interface: This is one of the default methods when the developer is going to use an iterator for fetching data from any of the collection interfaces. Java 8 introduced one of the key features called Lambda expressions because of its arguments, it will be very easy to use on the iterator interface.",
+            "Miscellaneous Collection API: a lot of methods have been introduced in the case of Miscellaneous Collection of the framework. Methods are for Each Remaining, replace all, computer, merge specially introduce in Iterator interface."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "Explain in detail about the Java Collection framework using in Java application. Provide more details on exact benefits provided by collection framework in Java application?",
+        "Answers":[
+            "Collection framework is kind of a much-highlighted package from the day java introduce this package. Initially, it only holding some of the legacy interfaces, like Vector, Hashtable, Stack, and Array, which are obsolete in terms of the longtime journey of java. From java upper version introducing lot of interfaces which very much feature-oriented and come with some key role for any kind of java programming. Implementation and define the algorithm for those interfaces are really useful for any Java developer any time of execution. Java Collection has worked with these approaches long days and came with a lot of concurrent collection class for ensuring thread safety on varieties operations.",
+            "Benefits of collection framework defined below:",
+            "Reduced development efforts by implementing defined collection classes.",
+            "Code quality is always enhanced including performance.",
+            "Efforts on code maintenance always been reduced.",
+            "Improve code reusability and maintained proper interoperability."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "Explain details benefits available in case of using collection framework generic version from the starting of collection interfaces and classes on Java 4 version onwards?",
+        "Answers":[
+            "Java 1.5 came with some critical functionalities on specifically in the collection framework, which enhances some of the generic interface’s legacy features. It introduced some of the approaches which actually provided ClassCastException at compilation time. Initially, the same exception came at runtime without any previous definition. But in the case of compilation, it will never be identified. Now if the developer mentioned one collection interface object type, then it will never able to accept any other object reference. If by mistake developers have done the same, then it will throw ClasCastExpection at compilation time." 
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "There have a lot of interfaces already defined in case of collection framework design of existing java application. Please explain in detail about some of the popular key interfaces available in collection framework, explain their utility of using?",
+        "Answers":[
+            "Some of the key interfaces are defined below which are available for Collection framework:",
+            "Collection: It is one of the root interfaces of the entire collection hierarchy. It actually holding group of available objects from the development point of view called Elements. Normally any kind of direct implementation of this Collection interface is not available for the Java platform.",
+            "Set: This is one of the key collection interfaces which extends Collection interface and ensure of not containing any duplicate elements.",
+            "List: It is one of the ordered collection which extending Collection interface and accepting duplicate elements, which are one of the key difference between set and list",
+            "Map: Map is also an interface which holding data with the key-value pair. It never contains any duplicate key values."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "Whether the collection frame can able to extend two very key interfaces in Java core packages, one is cloneable and another one is Serializable? Please explain some details explanation of your answer to the above concern?",
+        "Answers":[
+            "Cloning and serializing on collection interface is not possible at all, as collection interface can have multiple interfaces and there have some possibilities of getting duplicate values or unique values on those specific interfaces. So clone or serialize will not possible on that. But there has some specific method defined for some common interface which may use own clone method to do this."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "In Collection Framework, one of the key interface very frequently used by the developer called Map. But surprisingly Map interface not extend Collection framework directly. Can you please explain the same why it not extended?",
+        "Answers":[
+            "The map interface is one of the key interfaces of collection framework, but it never extends Collection interface as Map always maintained data as a key-value pair, which never ensures of storing multiple elements, which represents one of the key features of Collection framework."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "One of the important interface which is very frequently used in collection framework which iterator. Please explain when it can be useful and what the exact utility of it is?",
+        "Answers":[
+            "The iterator is one of the popular interfaces for iterating the data available in any active collection. Every collection has one specific method name iterator, which returns the reference of an Iterator object. Then two of the key methods hasNext and Next ensuring of fetching the last row and using the same."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "Two key interfaces in the collection framework for reading data from the collection and using it are Iterator and Enumerator. Please explain in detail what can be the difference between both the looping approaches available in the collection framework?",
+        "Answers":[
+            "Enumeration is one the key iterating feature especially using for legacy classes. It always much faster than the normal iterator interface. But Iterator is always more secure to use as it ensuring thread safety of the iterated collection object."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "Every interface of the collection framework contains one specific method call add for adding some components value in the interface. But in the case of Iterator interface there does not have any kind of add method, can you explain why it not in there?",
+        "Answers":[
+            "Iterator interface mainly used for iterating on the data holding by any active collection. It will never add any kind of elements and never able to provide some guaranty on the order of iteration."
+        ]
+
+    },
+    {
+        "Tags" : ["java"],
+        "Question" : "Explain the difference between two key interfaces of the collection framework, Iterator, and ListIterator?",
+        "Answers":[
+            "Iterator and Listiterator both are using for iterating collection data and help the developer for working with multiple elements of the collection. Difference between them is explained below:",
+            "Iterator working with all the collection, but ListIteraot only for List interface.",
+            "The iterator can ensure only forward traverse but Listiterator can do both forward and backward traverse as well."
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Two very common functions used in core PHP for a long time. Those functions are include() and require(). Please give some clear difference in between include and require a function for core PHP?",
+        "Answers":[
+            "Include() and require() both are using for include some specific file with the requesting page. The main difference between them is,",
+            "If developer use requires for including the file, then somehow process throwing some fatal error during execution for unavailability of the file then execution of the process will entirely stop. But if developer us include for including the file, then the entire process will not stop, it will ignore the fatal error and go for executing the next step without stopping the process"
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Suppose we are willing to get the IP address for some client who is using PHP developed web application. Please explain how we can get that IP information in PHP?",
+        "Answers":[
+            "There have several options for fetching IP addresses of the client execution machine in PHP. The developer can able to write some critical script for fetching those data externally. But one of the popular and very basic approaches of fetching IP address is :",
+            "$_SERVER[“REMOTE_ADDR”];"
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Explain in details about the difference between two popular functions of PHP unset() and unlink()?",
+        "Answers":[
+            "This is two of the common keywords using by the PHP developer in case of handling file system proper manner. Suppose the developer needs to delete or undefined some of the file already mapped with the request then both of these functions normally used. The main difference in between them is:",
+            "If developer used unset() on any file then that file reference is going to be undefined for the entire application, whereas if developer mention one file as unlink, then that file will be removed from the directory and as well as not available for the entire application."
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "There are several error types available in PHP. Explain some of the major error types which are very frequently used for PHP application and give the proper difference of them?",
+        "Answers":[
+            "This is the common Core PHP Interview Questions asked in an interview. Several responsibilities normally need to follow by a Core PHP tester in the current IT industry. Normally in PHP, we are handling three kinds of errors:",
+            "Notices: This is just given one notice of wrong coding or execution. It is very simple and mostly non-critical error occurred normally script execution time. Suppose application trying to access some undefined variable then this kind of notice will come.",
+            "Warnings: It is again not that much critical error, but still any kind of wrong execution warning will be given without stopping the normal execution of the process. The example is, include function used but some file is missing in the directory, then the warning will be given but the process will execute successfully.",
+            "Fatal: This is one of the most important error came in PHP script execution. It mainly causes termination of the process by given proper explanation. The example is, trying to access some nonexistence object or require file uploading but the file is missing."
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Explain in details about the difference between GET and POST in PHP application?",
+        "Answers":[
+            "Some of the key differences between GET and POST in PHP are explaining below:",
+            "GET information always passing through URL, so it is always visible to everyone, whereas POST information is in embedded with the request and sometimes it is in the encoded format, so it will not able understandable or visible to the normal user.",
+            "GET have some restriction on handling request, define characters are 2048. Whereas POST doesn’t have this kind of restriction at all.",
+            "GET only allows require ASCII data, whereas POST does not have this kind of restriction.",
+            "Developer common approach to use Get for fetching data, whereas POST is using for inserting or updating."
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Suppose developer needs to enable some of the error reporting utility in PHP. How it can be done, please explain in details?",
+        "Answers":[
+            "Displaying error message is one of the key requirement especially in case of debugging the error by the developer, it normally displays the number of lines of the script where fatal error got generated. The developer can display this error in possible page by given below command:",
+            "error_reporting(E_ALL)",
+            "But for initializing or activating of displaying error in PHP application, the developer needs to follow any of the below approach:",
+            "Display_error = ON in php.ini",
+            "Ini_set(‘display_error’, 1) in the specific script file"
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Explain in details about Traits in PHP application?",
+        "Answers":[
+            "Traits are one of the popular mechanism specifically for the PHP developer. As this mechanism help developer for allowing to create some reusable code again for the PHP language application in case of those objects where inheritance objective not fully supported. In the case of Traits, not possible to inheritance by its own mechanism. It is one of the key requirement that PHP developer should know about the key and powerful feature of the language before starting development in PHP."
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Suppose one constant has been defined in one of the PHP scripts. Now developer needs to change that constant value during the execution. Is it possible to do? Explain?",
+        "Answers":[
+            "If one value declared as constant in PHP, then it will never be changed by any process during execution. Constant value needs to be assigned at the time of initialization."
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Is it possible to extend one class which are defined as final? Explain?",
+        "Answers":[
+            "This is the most popular Core PHP Interview Questions asked in an interview. Some popular test cases in the current IT industry. If the developer defines one class as final, then extending of that class is absolutely not possible. If one class or method declared as final then creating child class and method overloading or overriding both are not possible."
+        ]
+
+    },
+    {
+        "Tags" : ["php"],
+        "Question" : "Explain in details about _destruct() and _construct() methods available in PHP classes?",
+        "Answers":[
+            "Every PHP object should have two methods called constructor and destructor. Both the methods are mainly defined in build in. Constructor method normally called immediately after creating one new instance of the specific class, normally used for initializing all the properties of a class. Whereas the destructor methods are mainly using for release the object of the class from the application memory. Destruction method does not require to pass any parameter."
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "What do you mean by MySQL Workbench?",
+        "Answers":[
+            "MySQL Workbench is basically the officially integrated environment for MySQL. It is implemented to graphically control the MySQL and visually design database structures. It basically gives users the provision to control the functionalities as per their requirements. It is mainly available in two versions, one is the open source free community edition and the other one is the proprietary standard edition."
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain MySQL Database Workbench?",
+        "Answers":[
+            "MySQL Database Workbench is basically the software application which has been used to develop and administrate different relational databases using SQL. It has been developed by Upscene Productions. It provides the support to the relational databases"
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "What do you mean my Joins and explain different types of MySQL Joins?",
+        "Answers":[
+            "In MySQL, joins are basically used to fetch the records from two or more table using some interconnected common fields or keys among the selected tables. There are mainly three types joins present in MySQL.",
+            "Inner Join: In case of inner join, it is used to fetch the list of rows when there is a match among the specified tables. It is the default join type. Syntax for the same is given below: Syntax: SELECT column_name(s) FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;",
+            "Left Join: In case of left join, it returns all rows from the left table even if there is no match in the right table.Syntax: SELECT column_name(s) FROM table1 LEFT JOIN table2 ON table1.column_name = table2.column_name;",
+            "Right Join: In case of right join, it returns all rows from the right table even if there is no match in the left table.Syntax: SELECT column_name(s) FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;"
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain different types of MySQL functions?",
+        "Answers":[
+            "MySQL String Functions: Examples are- INSERT, CONCAT, FORMAT, INSERT, LENGTH, LEFT, FIELD, LTRIM, TRIM, UPPER etc",
+            "MySQL Numeric Functions: Examples are- AVG, DIV, EXP, MAX, MIN, POWER, TRUNCATE etc.",
+            "MySQL Date Functions: Examples are – ADDDATE, ADDTIME, DATE, MONTH, MINUTE etc.",
+            "MySQL Advanced Functions: Examples are – BIN, CASE, CAST, DATABASE, IF, ISNULL, VERSION etc."
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain the differences between primary key and foreign key constraint?",
+        "Answers":[
+            "A primary key constraint is used to uniquely identify every record in a table. It always contains unique values and never contains any NULL values. Below is the syntax for the same whereas foreign key constraint is used to link between two tables. It is basically the field which refers to the primary key of the other table."
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain the differences between delete, drop and truncate?",
+        "Answers":[
+            "Delete: Delete is a DML statement and it can be implemented using ‘where’ clause and can also be rolled back. Syntax: DELETE FROM table_name WHERE column_name = column_value;",
+
+            "Drop: Drop is a DDL statement and it can’t be rolled back. By using this, the entire table and all its constraints and privileges will be removed. Syntax: DROP TABLE table_name;",
+            
+            "Truncate: Truncate is a DDL statement and it is used to remove all the rows from a table but its structures, constraints, and indexes will remain as it is. Syntax: TRUNCATE TABLE table_name;"
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain the main difference between InnoDB and MyISAM?",
+        "Answers":[
+            "In the case of InnoDB, it is used to store the tables in tablespace whereas, in the case of MyISAM, it stores each MyISAM table in a separate file."
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain different types of tables in MySQL?",
+        "Answers":[
+            "InoDB: This type of table is mainly used to enhance and support transaction using COMMIT and ROLLBACK commands.",
+            "HEAP: This type of table is mainly used to process data access in a more faster than the normal speed. But on the downside of it, all data will be lost in case of table deletion.",
+            "BDB: This type of table is also used for transaction support implemented using COMMIT command but its processing speed is much slower than that of InoDB."
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain MySQL transaction properties?",
+        "Answers":[
+            "This is the most asked MySQL Interview Questions asked in an interview. MySQL transactions mainly consist of four properties.",
+            "Atomicity: The property is mainly used to control all the operations and ensure all the transactions get completed successfully.",
+            "Consistency: This ensures the database changes according to the successfully committed transactions.",
+            "Isolation: This is basically used to control the independent transactions.",
+            "Durability: This is used to control and measure the effect and presence of committed transactions in case of system or database failure."
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain a few pros of MySQL?",
+        "Answers":[
+            "The MySQL products are more stable and solid compared to its competitors",
+            "It is easier to use from the user experience perspective",
+            "It is open source and thus is free to use.",
+            "There is large and extensive community support exists for MySQL"
+        ]
+
+    },
+    {
+        "Tags" : ["mysql"],
+        "Question" : "Explain a few cons of MySQL?",
+        "Answers":[
+            "There is sometimes a bit performance scaling issues exists in case of MySQL",
+            "Sometimes development progress gets lagged due to lacking of community development approach."
+        ]
+
+    },
+    {
+        "Tags" : ["linux"],
+        "Question" : "What are the different layers of Linux?",
+        "Answers":[
+            "Hardware’s – Innermost layer consists of physical devices like RAM, CPU, etc. There might be driver software to communicate with devices in some OS.",
+            "Kernel – Kernel is a heart of an OS with hides complexities of the underlying hardware and provides a high-level abstraction to upper layers. There are different types of kernels like a microkernel, Monolithic Kernel, etc. Linux kernel is a Monolithic type.",
+            "Shell – Shell is a program running on top of the Kernel, which acts as a primary method of interaction between user and kernel. Simply saying it is a program that can run other programs. Nowadays GUI replaces shell to a large extent. Shell accepts commands and passes it for execution.",
+            "Utility Programs(Utilities) – These programs or software running on a top layer of OS help user for day to day generic activities like schedule a cron job or a specific task like create text documents."
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "Explain briefly about three popular Linux shells?",
+        "Answers":[
+            "Bash Shell – Default shell in many Linux/Unix distribution. Has Features like :Edit command history, Shell functions and gives aliases to it, Unlimited command history, Array with unlimited size with index.",
+            "Tcsh/Csh Shell (Normally called C shell) – Tcsh is enhanced C shell, More of C like syntax, Auto-completion of word and filename is programmable, Spell check, Job control",
+            "K Shell – It is called Korn Shell or Ksh.More than an interactive Shell, K shell is a complete, powerful, high-level programming language. It has features like, Options and variables that give you more ways to customize your environment, Advanced security features, Advanced regular expressions,- well-known utilities like grep and awk."
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "What is the command used to get a guide on how to use a command?",
+        "Answers":[
+            "Manual pages are where an explanation of every command has stored. Manual pages for a specific command will have all information about that command and it can be called as ‘man <command> eg: ‘man ls’.Manual pages are categorized into different sets of user commands, system calls, library functions..etc..  A general layout of a manual page is ",
+            "NAME: The name of the command or function and simple explanation of it.",
+            "SYNOPSIS: For commands how to run it and parameters it takes. For functions, a list of the parameters it takes and which header file contains its definition.",
+            "DESCRIPTION: A detailed description of command or function we are searching for.",
+            "EXAMPLES: Some examples of usages.Most helpful section"
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "How to get a list of currently running processes and resource utilization in Linux?",
+        "Answers":[
+            "the top is the command used for this. This will give all information about each process running on a machine like –",
+            "Process ID (PID)",
+            "Owner of the process(USER)",
+            "Priority of process(PR)",
+            "Percentage of CPU (%CPU)",
+            "Percentage of memory",
+            "Total CPU time spends on the process.",
+            "Command used to start a process.",
+            "The popular option used with top command –",
+            "top -u -> Process by a user.",
+            "top – i -> exclude idle tasks",
+            "top -p -> Show a particular process"
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "What is a pipeline operator in Linux?",
+        "Answers":[
+            "Pipeline operator in Linux is used to redirect the output of one program or command to another program/command for further processing. Usually termed as redirection. Vertical bars,’|’ (“pipes” in common Unix verbiage) are used for this. For example, ls -l | grep key, will redirect the output of ls -l command to grep key command"
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "Explain file permission in Linux. How to change it?",
+        "Answers":[
+            "Permissions are established for all files and directories. Permissions specify who can access a file or directory, and the types of access. All files and directories are owned by a user.",
+            "Permissions are controlled at three levels:",
+            "Owner (called a user, or ‘u’)",
+            "Group (‘g’)",
+            "The rest users(called other, or ‘o’)",
+            "Level of access",
+            "Read – Filet can be viewed or copied.",
+            "Write – File can be overwritten (e.g., using save as)",
+            "Execute – File can be executed",
+            "To change permission – chmod <permissions> < file(s)> is used. Here permissions can be specified different approaches. The parameter file(s) is one or more files (or directories). One approach to specify permissions is to describe the changes to be applied as a combination of u, g, o along with r, w, x. To add permission, use + and to remove permission, use –."
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "What is the process in a Linux context?",
+        "Answers":[
+            "A process is a running program. Processes can be started from the GUI or the command line. Processes can also start other processes. Whenever a process runs, Linux keeps track of it through a process ID (PID). After booting, the first process is an initialization process called init. It is given a PID of 1. From that point on, each new process gets the next available PID.",
+            "A process can only be created by another process. We refer to the creating process as the parent and the created process as the child. The parent process spawns one or more child processes. The spawning of a process can be accomplished in one of several ways. Each requires a system call (function call) to the Linux kernel. These function calls are fork(), vfork(), clone(), wait(), and exec().",
+            "Let us move to the next Linux Interview Questions."
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "What are Regular Expressions(regex)? What is the meaning of *,+,? In regular expression?",
+        "Answers":[
+            "A regular expression (regex) is a string that expresses a pattern used to match against other strings. The pattern will either match some portion of another string or not. There is a list of predefined metacharacters used in a regex.",
+            "* Used to match the preceding character if it appears 0 or more times",
+            "+Used to match the preceding character if it appears 1 or more times",
+            "? Used to match the preceding character if it appears 0 or 1 times"
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "What is a sed command?",
+        "Answers":[
+            "This is the popular Linux interview questions asked in an interview. Sed is a stream editor. A stream editor is a program that takes a stream of text and modifies it. With sed, you specify a regular expression which represents a pattern of what you want to replace. The generic form of a sed command is sed ‘s/pattern/replacement/’ filename."
+        ]
+
+    },
+    {
+        "Tags" :["linux"],
+        "Question" : "What is the difference between Hard Link and Soft Link?",
+        "Answers":[
+            "A soft link(Symbolic Link) points to another file by name. As it just contains a name, that name does not actually have to exist or exist on a different file system. If you replace the file or change file content without changing a name, then the link still contains the same name and points to that file. A hard link points to the file by inode number. A file should actually exist in the same file system. A file will only be deleted from disk when the last link to its inode is removed."
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "What is multithreading?",
+        "Answers":[
+            "The thread is a sequence of execution; it can also be referred to as a feature of OS (operating system).",
+            "Let’s understand the above sentence in a simpler way.",
+            "For any action taken by a user on the system, there must be a process to complete that action (as asked by a user). Every process must have at least one thread associated with it. The OS built in every system is responsible to allocate the process time for every thread. So Multithreading is a more specialized way of multitasking. This behavior allows the user to perform multiple tasks simultaneously."
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Come up with every detail that you know regarding the Process?",
+        "Answers":[
+            "Let’s see what a process exactly is, Mr. A logs into the system and wants to see the dashboard of his business. In order to view his business dashboard on the system, he will navigate to dashboard section. In doing so he generates a process which is handled by the respective system OS. The OS will allocate memory for the process and also the OS will make sure that the memory of one process is not accessible by other processes.",
+            "A process has different stages which can also be referred to as process life cycle –",
+            "Start",
+            "Ready",
+            "Running",
+            "Waiting",
+            "Terminated or Exit"
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Highlight some of the advantages of thread with its types?",
+        "Answers":[
+            "UI thread – these are used to create UI components. Eg. Message box pops-out to display any information to the user.",
+            "Worker Thread – no message pump is included in it",
+            "Advantages – Minimizes the context switch time, Boost communications, Easy to create and connect the threads, Threads usage makes the process more concurrent"
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Why do we need more than one thread?",
+        "Answers":[
+            "This is the common Multithreading Interview Questions C++ asked in an interview. As we know that there must be at least one thread associated with every process. Talking of more threads to a single process has multiple benefits.",
+            "UI interface – First and foremost reason is to have a great UI with the great user experience. Multi-threading concept help in doing so.",
+            "Multi-tasking – with having more threads one can do more things simultaneously.",
+            "Usability – different components of the system might be using different components at a given point of time. Here multi-threading can be a time saver."
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "What are the ways to create a thread in C++?",
+        "Answers":[
+            "There are 4 ways of doing this which are as follows –",
+            "Thread creation using the function pointer",
+            "Thread creating using the function object",
+            "Thread creating using lambda",
+            "Thread creation using the member function"
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Brief me about the available models in Multithreading?",
+        "Answers":[
+            "Many to many relations",
+            "Many to One relation",           
+            "One to one relation"
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Name the design pattern for the thread?",
+        "Answers":[
+            "Some popular test cases in the current IT industry",
+            "Thread Pool (Boos and Worker)",
+            "Peer (Work Crew)",
+            "Pipeline"
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Define busy waiting and how it can be avoided?",
+        "Answers":[
+            "When a thread is waiting for another thread with the use of an active looping structure, that doesn’t do anything is known as busy waiting state. This cane avoided using mutexes."
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "What do you understand by priority inversion terminology?",
+        "Answers":[
+            "A higher priority thread must wait behind a lower priority thread in a case where the lower priority threads hold a lock which a higher priority thread is waiting. This is a case of priority inversion."
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Is there any difference between a user-level and Kernel-level threads?",
+        "Answers":[
+            "This is the most popular Multithreading Interview Questions C++ asked in an interview. Yes, there are some crucial differences between the two. They are listed below."
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "Name the functions that are used to create the threads?",
+        "Answers":[
+            "An afxbeginthread function is used to create the threads (both kind). Thread creation is done in two modes – one that starts executing it and another that gets created in the suspended mode which can be resumed later."
+        ]
+
+    },
+    {
+        "Tags" : ["Multithreading" , "c++"],
+        "Question" : "What are the 6 synchronizations primitive available in Multithreading?",
+        "Answers":[
+            "They are as follows –",
+            "Mutex",
+            "Join",
+            "Condition Variable",
+            "Barriers",
+            "Spin Lock",
+            "Semaphore"
+        ]
+
     }
 
-{"Tag": "software", "Quesion": "What is computer software?", "Answers": " Computer software is a complete package, which includes software program, its documentation and user guide on how to use the software."}
-{"Tag": "software", "Quesion": "Can you differentiate computer software and computer program?", "Answers": " A computer program is piece of programming code which performs a well defined task where as software includes programming code, its documentation and user guide."}
-{"Tag": "software", "Quesion": "What is software engineering?", "Answers": " Software engineering is an engineering branch associated with software system development."}
-{"Tag": "software", "Quesion": "When you know programming, what is the need to learn software engineering concepts?", "Answers": " A person who knows how to build a wall may not be good at building an entire house. Likewise, a person who can write programs may not have knowledge of other concepts of Software Engineering. The software engineering concepts guide programmers on how to assess requirements of end user, design the algorithms before actual coding starts, create programs by coding, testing the code and its documentation."}
-{"Tag": "software", "Quesion": "What is software process or Software Development Life Cycle (SDLC)?", "Answers": "Software Development Life Cycle, or software process is the systematic development of software by following every stage in the development process namely, Requirement Gathering, System Analysis, Design, Coding, Testing, Maintenance and Documentation in that order."}
-{"Tag": "software", "Quesion": "What are SDLC models available?", "Answers": " There are several SDLC models available such as Waterfall Model, Iterative Model, Spiral model, V-model and Big-bang Model etc."}
-{"Tag": "software", "Quesion": "What are various phases of SDLC?", "Answers": " The generic phases of SDLC are: Requirement Gathering, System Analysis and Design, Coding, Testing and implementation. The phases depend upon the model we choose to develop software."}
-{"Tag": "software", "Quesion": "Which SDLC model is the best?", "Answers": " SDLC Models are adopted as per requirements of development process. It may very software-to-software to ensuring which model is suitable."}
-{"Tag": "software", "Quesion": " can select the best SDLC model if following answers are satisfied -", "Answers": " SDLC suitable for selected technology to implement the software ?\nIs SDLC appropriate for client\u2019s requirements and priorities ?\nIs SDLC model suitable for size and complexity of the software ?\nIs the SDLC model suitable for type of projects and engineering we do ?\nIs the SDLC appropriate for the geographically co-located or dispersed developers ?\nQ.What is software project management?"}
-{"Tag": "software", "Quesion": " Software project management is process of managing all activities like time, cost and quality management involved in software development.", "Answers": "Who is software project manager?"}
-{"Tag": "software", "Quesion": " A software project manager is a person who undertakes the responsibility of carrying out the software project.", "Answers": "What does software project manager do?"}
-{"Tag": "software", "Quesion": " Software project manager is engaged with software management activities. He is responsible for project planning, monitoring the progress, communication among stakeholders, managing risks and resources, smooth execution of development and delivering the project within time, cost and quality contraints.", "Answers": "What is software scope?"}
-{"Tag": "software", "Quesion": " Software scope is a well-defined boundary, which encompasses all the activities that are done to develop and deliver the software product.", "Answers": "e software scope clearly defines all functionalities and artifacts to be delivered as a part of the software. The scope identifies what the product will do and what it will not do, what the end product will contain and what it will not contain."}
-{"Tag": "software", "Quesion": "What is project estimation?", "Answers": " It is a process to estimate various aspects of software product in order to calculate the cost of development in terms of efforts, time and resources. This estimation can be derived from past experience, by consulting experts or by using pre-defined formulas."}
-{"Tag": "software", "Quesion": "How can we derive the size of software product?", "Answers": " Size of software product can be calculated using either of two methods -"}
-{"Tag": "software", "Quesion": "unting the lines of delivered code\nCounting delivered function points\nQ.What are function points?", "Answers": " Function points are the various features provided by the software product. It is considered as a unit of measurement for software size."}
-{"Tag": "software", "Quesion": "What are software project estimation techniques available?", "Answers": " There are many estimation techniques available.The most widely used are -"}
-{"Tag": "software", "Quesion": "composition technique (Counting Lines of Code and Function Points)\nEmpirical technique (Putnam and COCOMO).\nQ.What is baseline?", "Answers": " Baseline is a measurement that defines completeness of a phase. After all activities associated with a particular phase are accomplished, the phase is complete and acts as a baseline for next phase."}
-{"Tag": "software", "Quesion": "What is Software configuration management?", "Answers": " Software Configuration management is a process of tracking and controlling the changes in software in terms of the requirements, design, functions and development of the product."}
-{"Tag": "software", "Quesion": "What is change control?", "Answers": " Change control is function of configuration management, which ensures that all changes made to software system are consistent and made as per organizational rules and regulations."}
-{"Tag": "software", "Quesion": "How can you measure project execution?", "Answers": " We can measure project execution by means of Activity Monitoring, Status Reports and Milestone Checklists."}
-[{"Tag": "software", "Quesion": "Mention some project management tools.", "Answers": " There are various project management tools used as per the requirements of software project and organization policies. They include Gantt Chart, PERT Chart, Resource Histogram, Critical Path Analysis, Status Reports, Milestone Checklists etc."}
-{"Tag": "software", "Quesion": "What are software requirements?", "Answers": " Software requirements are functional description of proposed software system. Requirements are assumed to be the description of target system, its functionalities and features. Requirements convey the expectations of users from the system."}
-{"Tag": "software", "Quesion": "What is feasibility study?", "Answers": " It is a measure to assess how practical and beneficial the software project development will be for an organization. The software analyzer conducts a thorough study to understand economic, technical and operational feasibility of the project."}
-{"Tag": "software", "Quesion": "onomic - Resource transportation, cost for training, cost of additional utilities and tools and overall estimation of costs and benefits of the project.", "Answers": "chnical - Is it possible to develop this system ? Assessing suitability of machine(s) and operating system(s) on which software will execute, existing developers\u2019 knowledge and skills, training, utilities or tools for project."}
-{"Tag": "software", "Quesion": "erational - Can the organization adjust smoothly to the changes done as per the demand of project ? Is the problem worth solving ?", "Answers": "How can you gather requirements?"}
-{"Tag": "software", "Quesion": " Requirements can be gathered from users via interviews, surveys, task analysis, brainstorming, domain analysis, prototyping, studying existing usable version of software, and by observation.", "Answers": "What is SRS?"}]
-{"Tag": "software", "Quesion": " SRS or Software Requirement Specification is a document produced at the time of requirement gathering process. It can be also seen as a process of refining requirements and documenting them.", "Answers": "What are functional requirements?"}
-{"Tag": "software", "Quesion": " Functional requirements are functional features and specifications expected by users from the proposed software product.", "Answers": "What are non-functional requirements?"}
-{"Tag": "software", "Quesion": " Non-functional requirements are implicit and are related to security, performance, look and feel of user interface, interoperability, cost etc.", "Answers": "What is software measure?"}
-{"Tag": "software", "Quesion": " Software Measures can be understood as a process of quantifying and symbolizing various attributes and aspects of software.", "Answers": "What is software metric?"}
-{"Tag": "software", "Quesion": " Software Metrics provide measures for various aspects of software process and software product. They are divided into \u2013", "Answers": "quirement metrics : Length requirements, completeness\nProduct metrics :Lines of Code, Object oriented metrics, design and test metrics\nProcess metrics: Evaluate and track budget, schedule, human resource.\nQ.What is modularization?"}
-{"Tag": "software", "Quesion": " Modularization is a technique to divide a software system into multiple discreet modules, which are expected to carry out task(s) independently.", "Answers": "What is concurrency and how it is achieved in software?"}
-{"Tag": "software", "Quesion": " Concurrency is the tendency of events or actions to happen simultaneously. In software, when two or more processes execute simultaneously, they are called concurrent processes.", "Answers": "ample\nWhile you initiate print command and printing starts, you can open a new application."}
-{"Tag": "software", "Quesion": " Highest abstraction level DFD is known as Level 0 DFD also called a context level DFD, which depicts the entire information system as one diagram concealing all the underlying details.", "Answers": "What is the difference between structured English and Pseudo Code?"}
-{"Tag": "software", "Quesion": " Structured English is native English language used to write the structure of a program module by using programming language keywords, whereas, Pseudo Code is more close to programming language and uses native English language words or sentences to write parts of code.", "Answers": "What is data dictionary?"}
-{"Tag": "software", "Quesion": " Data dictionary is referred to as meta-data. Meaning, it is a repository of data about data. Data dictionary is used to organize the names and their references used in system such as objects and files along with their naming conventions.", "Answers": "What is structured design?"}
-{"Tag": "software", "Quesion": " Structured design is a conceptualization of problem into several well-organized elements of solution. It is concern with the solution design and based on \u2018divide and conquer\u2019 strategy.", "Answers": "What is the difference between function oriented and object oriented design?"}
-{"Tag": "software", "Quesion": " Function-oriented design is comprised of many smaller sub-systems known as functions. Each function is capable of performing significant task in the system. Object oriented design works around the real world objects (entities), their classes (categories) and methods operating on objects (functions).", "Answers": "Briefly define top-down and bottom-up design model."}
-{"Tag": "software", "Quesion": " Top-down model starts with generalized view of system and decomposes it to more specific ones, whereas bottom-up model starts with most specific and basic components first and keeps composing the components to get higher level of abstraction.", "Answers": "What is the basis of Halstead\u2019s complexity measure?"}
-{"Tag": "software", "Quesion": " Halstead\u2019s complexity measure depends up on the actual implementation of the program and it considers tokens used in the program as basis of measure.", "Answers": "Mention the formula to calculate Cyclomatic complexity of a program?"}
-[{"Tag": "software", "Quesion": " Cyclomatic complexity uses graph theory\u2019s formula: V(G) = e \u2013 n + 2", "Answers": "What is functional programming?"}
-[{"Tag": "software", "Quesion": " Functional programming is style of programming language, which uses the concepts of mathematical function. It provides means of computation as mathematical functions, which produces results irrespective of program state.", "Answers": "Differentiate validation and verification?"}
-{"Tag": "software", "Quesion": " Validation checks if the product is made as per user requirements whereas verification checks if proper steps are followed to develop the product.", "Answers": "vlidation confirms the right product and verification confirms if the product is built in a right way."}
-{"Tag": "software", "Quesion": "What is black-box and white-box testing?", "Answers": " Black-box testing checks if the desired outputs are produced when valid input values are given. It does not verify the actual implementation of the program."}
-{"Tag": "software", "Quesion": "ite-box testing not only checks for desired and valid output when valid input is provided but also it checks if the code is implemented correctly.", "Answers": "iteria\tBlack Box Testing\tWhite Box Testing\nKnowledge of software program, design and structure essential\tNo\tYes\nKnowledge of Software Implementation essential\tNo\tYes\nWho conducts this test on software\tSoftware Testing Employee\tSoftware Developer\nbaseline reference for tester\tRequirements specifications\tDesign and structure details\nQ.Quality assurance vs. Quality Control?"}
-{"Tag": "software", "Quesion": " Quality Assurance monitors to check if proper process is followed while software developing the software.", "Answers": "ality Control deals with maintaining the quality of software product."}
-{"Tag": "software", "Quesion": "What are various types of software maintenance?", "Answers": " Maintenance types are: corrective, adaptive, perfective and preventive."}
-{"Tag": "software", "Quesion": "rrective\nRemoving errors spotted by users", "Answers": "aptive\ntackling the changes in the hardware and software environment where the software works"}
-{"Tag": "software", "Quesion": "rfective maintenance\nimplementing changes in existing or new requirements of user", "Answers": "eventive maintenance\ntaking appropriate measures to avoid future problems"}
-{"Tag": "software", "Quesion": "What is software re-engineering?", "Answers": " Software re-engineering is process to upgrade the technology on which the software is built without changing the functionality of the software. This is done in order to keep the software tuned with the latest technology."}
-{"Tag": "software", "Quesion": "What are CASE tools?", "Answers": " CASE stands for Computer Aided Software Engineering. CASE tools are set of automated software application programs, which are used to support, accelerate and smoothen the SDLC activities."}
-{"Tag": "software", "Quesion": "What is computer software?", "Answers": " Computer software is a complete package, which includes software program, its documentation and user guide on how to use the software."}
-{"Tag": "software", "Quesion": "Can you differentiate computer software and computer program?", "Answers": " A computer program is piece of programming code which performs a well defined task where as software includes programming code, its documentation and user guide."}
-{"Tag": "software", "Quesion": "What is software engineering?", "Answers": " Software engineering is an engineering branch associated with software system development."}
-{"Tag": "software", "Quesion": "When you know programming, what is the need to learn software engineering concepts?", "Answers": " A person who knows how to build a wall may not be good at building an entire house. Likewise, a person who can write programs may not have knowledge of other concepts of Software Engineering. The software engineering concepts guide programmers on how to assess requirements of end user, design the algorithms before actual coding starts, create programs by coding, testing the code and its documentation."}
-{"Tag": "software", "Quesion": "What is software process or Software Development Life Cycle (SDLC)?", "Answers": "Software Development Life Cycle, or software process is the systematic development of software by following every stage in the development process namely, Requirement Gathering, System Analysis, Design, Coding, Testing, Maintenance and Documentation in that order."}
-{"Tag": "software", "Quesion": "What are SDLC models available?", "Answers": " There are several SDLC models available such as Waterfall Model, Iterative Model, Spiral model, V-model and Big-bang Model etc."}
-{"Tag": "software", "Quesion": "What are various phases of SDLC?", "Answers": " The generic phases of SDLC are: Requirement Gathering, System Analysis and Design, Coding, Testing and implementation. The phases depend upon the model we choose to develop software."}
-{"Tag": "software", "Quesion": "Which SDLC model is the best?", "Answers": " SDLC Models are adopted as per requirements of development process. It may very software-to-software to ensuring which model is suitable."}
-{"Tag": "software", "Quesion": " can select the best SDLC model if following answers are satisfied -", "Answers": " SDLC suitable for selected technology to implement the software ?\nIs SDLC appropriate for client\u2019s requirements and priorities ?\nIs SDLC model suitable for size and complexity of the software ?\nIs the SDLC model suitable for type of projects and engineering we do ?\nIs the SDLC appropriate for the geographically co-located or dispersed developers ?\nQ.What is software project management?"}
-{"Tag": "software", "Quesion": " Software project management is process of managing all activities like time, cost and quality management involved in software development.", "Answers": "Who is software project manager?"}
-{"Tag": "software", "Quesion": " A software project manager is a person who undertakes the responsibility of carrying out the software project.", "Answers": "What does software project manager do?"}
-{"Tag": "software", "Quesion": " Software project manager is engaged with software management activities. He is responsible for project planning, monitoring the progress, communication among stakeholders, managing risks and resources, smooth execution of development and delivering the project within time, cost and quality contraints.", "Answers": "What is software scope?"}
-{"Tag": "software", "Quesion": " Software scope is a well-defined boundary, which encompasses all the activities that are done to develop and deliver the software product.", "Answers": "e software scope clearly defines all functionalities and artifacts to be delivered as a part of the software. The scope identifies what the product will do and what it will not do, what the end product will contain and what it will not contain."}
-{"Tag": "software", "Quesion": "What is project estimation?", "Answers": " It is a process to estimate various aspects of software product in order to calculate the cost of development in terms of efforts, time and resources. This estimation can be derived from past experience, by consulting experts or by using pre-defined formulas."}
-{"Tag": "software", "Quesion": "How can we derive the size of software product?", "Answers": " Size of software product can be calculated using either of two methods -"}
-{"Tag": "software", "Quesion": "unting the lines of delivered code\nCounting delivered function points\nQ.What are function points?", "Answers": " Function points are the various features provided by the software product. It is considered as a unit of measurement for software size."}
-{"Tag": "software", "Quesion": "What are software project estimation techniques available?", "Answers": " There are many estimation techniques available.The most widely used are -"}
-{"Tag": "software", "Quesion": "composition technique (Counting Lines of Code and Function Points)\nEmpirical technique (Putnam and COCOMO).\nQ.What is baseline?", "Answers": " Baseline is a measurement that defines completeness of a phase. After all activities associated with a particular phase are accomplished, the phase is complete and acts as a baseline for next phase."}
-{"Tag": "software", "Quesion": "What is Software configuration management?", "Answers": " Software Configuration management is a process of tracking and controlling the changes in software in terms of the requirements, design, functions and development of the product."}]
-{"Tag": "software", "Quesion": "What is change control?", "Answers": " Change control is function of configuration management, which ensures that all changes made to software system are consistent and made as per organizational rules and regulations."}]
-{"Tag": "software", "Quesion": "How can you measure project execution?", "Answers": " We can measure project execution by means of Activity Monitoring, Status Reports and Milestone Checklists."}
-{"Tag": "software", "Quesion": "Mention some project management tools.", "Answers": " There are various project management tools used as per the requirements of software project and organization policies. They include Gantt Chart, PERT Chart, Resource Histogram, Critical Path Analysis, Status Reports, Milestone Checklists etc."}
-{"Tag": "software", "Quesion": "What are software requirements?", "Answers": " Software requirements are functional description of proposed software system. Requirements are assumed to be the description of target system, its functionalities and features. Requirements convey the expectations of users from the system."}
-{"Tag": "software", "Quesion": "What is feasibility study?", "Answers": " It is a measure to assess how practical and beneficial the software project development will be for an organization. The software analyzer conducts a thorough study to understand economic, technical and operational feasibility of the project."}
-[{"Tag": "software", "Quesion": "onomic - Resource transportation, cost for training, cost of additional utilities and tools and overall estimation of costs and benefits of the project.", "Answers": "chnical - Is it possible to develop this system ? Assessing suitability of machine(s) and operating system(s) on which software will execute, existing developers\u2019 knowledge and skills, training, utilities or tools for project."}
-{"Tag": "software", "Quesion": "erational - Can the organization adjust smoothly to the changes done as per the demand of project ? Is the problem worth solving ?", "Answers": "How can you gather requirements?"}
-{"Tag": "software", "Quesion": " Requirements can be gathered from users via interviews, surveys, task analysis, brainstorming, domain analysis, prototyping, studying existing usable version of software, and by observation.", "Answers": "What is SRS?"}
-{"Tag": "software", "Quesion": " SRS or Software Requirement Specification is a document produced at the time of requirement gathering process. It can be also seen as a process of refining requirements and documenting them.", "Answers": "What are functional requirements?"}
-{"Tag": "software", "Quesion": " Functional requirements are functional features and specifications expected by users from the proposed software product.", "Answers": "What are non-functional requirements?"}
-{"Tag": "software", "Quesion": " Non-functional requirements are implicit and are related to security, performance, look and feel of user interface, interoperability, cost etc.", "Answers": "What is software measure?"}
-{"Tag": "software", "Quesion": " Software Measures can be understood as a process of quantifying and symbolizing various attributes and aspects of software.", "Answers": "What is software metric?"}
-{"Tag": "software", "Quesion": " Software Metrics provide measures for various aspects of software process and software product. They are divided into \u2013", "Answers": "quirement metrics : Length requirements, completeness\nProduct metrics :Lines of Code, Object oriented metrics, design and test metrics\nProcess metrics: Evaluate and track budget, schedule, human resource.\nQ.What is modularization?"}
-{"Tag": "software", "Quesion": " Modularization is a technique to divide a software system into multiple discreet modules, which are expected to carry out task(s) independently.", "Answers": "What is concurrency and how it is achieved in software?"}
-{"Tag": "software", "Quesion": " Concurrency is the tendency of events or actions to happen simultaneously. In software, when two or more processes execute simultaneously, they are called concurrent processes.", "Answers": "ample\nWhile you initiate print command and printing starts, you can open a new application."}
-{"Tag": "software", "Quesion": "ncurrency, is implemented by splitting the software into multiple independent units of execution namely processes and threads, and executing them in parallel.", "Answers": "What is cohesion?"}
-{"Tag": "software", "Quesion": " Cohesion is a measure that defines the degree of intra-dependability among the elements of the module.", "Answers": "What is coupling?"}
-{"Tag": "software", "Quesion": " Coupling is a measure that defines the level of inter-dependability among modules of a program.", "Answers": "Mentions some software analysis & design tools?"}
-{"Tag": "software", "Quesion": " These can be: DFDs (Data Flow Diagrams), Structured Charts, Structured English, Data Dictionary, HIPO (Hierarchical Input Process Output) diagrams, ER (Entity Relationship) Diagrams and Decision tables.", "Answers": "What is level-0 DFD?"}
-{"Tag": "software", "Quesion": " Highest abstraction level DFD is known as Level 0 DFD also called a context level DFD, which depicts the entire information system as one diagram concealing all the underlying details.", "Answers": "What is the difference between structured English and Pseudo Code?"}
-{"Tag": "software", "Quesion": " Structured English is native English language used to write the structure of a program module by using programming language keywords, whereas, Pseudo Code is more close to programming language and uses native English language words or sentences to write parts of code.", "Answers": "What is data dictionary?"}
-{"Tag": "software", "Quesion": " Data dictionary is referred to as meta-data. Meaning, it is a repository of data about data. Data dictionary is used to organize the names and their references used in system such as objects and files along with their naming conventions.", "Answers": "What is structured design?"}
-{"Tag": "software", "Quesion": " Structured design is a conceptualization of problem into several well-organized elements of solution. It is concern with the solution design and based on \u2018divide and conquer\u2019 strategy.", "Answers": "What is the difference between function oriented and object oriented design?"}
-{"Tag": "software", "Quesion": " Function-oriented design is comprised of many smaller sub-systems known as functions. Each function is capable of performing significant task in the system. Object oriented design works around the real world objects (entities), their classes (categories) and methods operating on objects (functions).", "Answers": "Briefly define top-down and bottom-up design model."}
-{"Tag": "software", "Quesion": " Top-down model starts with generalized view of system and decomposes it to more specific ones, whereas bottom-up model starts with most specific and basic components first and keeps composing the components to get higher level of abstraction.", "Answers": "What is the basis of Halstead\u2019s complexity measure?"}
-{"Tag": "software", "Quesion": " Halstead\u2019s complexity measure depends up on the actual implementation of the program and it considers tokens used in the program as basis of measure.", "Answers": "Mention the formula to calculate Cyclomatic complexity of a program?"}]
-{"Tag": "software", "Quesion": " Cyclomatic complexity uses graph theory\u2019s formula: V(G) = e \u2013 n + 2", "Answers": "What is functional programming?"}
-{"Tag": "software", "Quesion": " Functional programming is style of programming language, which uses the concepts of mathematical function. It provides means of computation as mathematical functions, which produces results irrespective of program state.", "Answers": "Differentiate validation and verification?"}
-{"Tag": "software", "Quesion": " Validation checks if the product is made as per user requirements whereas verification checks if proper steps are followed to develop the product.", "Answers": "lidation confirms the right product and verification confirms if the product is built in a right way."}
-{"Tag": "software", "Quesion": "What is black-box and white-box testing?", "Answers": " Black-box testing checks if the desired outputs are produced when valid input values are given. It does not verify the actual implementation of the program."}
-{"Tag": "software", "Quesion": "ite-box testing not only checks for desired and valid output when valid input is provided but also it checks if the code is implemented correctly.", "Answers": "iteria\tBlack Box Testing\tWhite Box Testing\nKnowledge of software program, design and structure essential\tNo\tYes\nKnowledge of Software Implementation essential\tNo\tYes\nWho conducts this test on software\tSoftware Testing Employee\tSoftware Developer\nbaseline reference for tester\tRequirements specifications\tDesign and structure details\nQ.Quality assurance vs. Quality Control?"}
-{"Tag": "software", "Quesion": " Quality Assurance monitors to check if proper process is followed while software developing the software.", "Answers": "ality Control deals with maintaining the quality of software product."}
-{"Tag": "software", "Quesion": "What are various types of software maintenance?", "Answers": " Maintenance types are: corrective, adaptive, perfective and preventive."}
-{"Tag": "software", "Quesion": "rrective\nRemoving errors spotted by users", "Answers": "aptive\ntackling the changes in the hardware and software environment where the software works"}
-{"Tag": "software", "Quesion": "rfective maintenance\nimplementing changes in existing or new requirements of user", "Answers": "eventive maintenance\ntaking appropriate measures to avoid future problems"}
-{"Tag": "software", "Quesion": "What is software re-engineering?", "Answers": " Software re-engineering is process to upgrade the technology on which the software is built without changing the functionality of the software. This is done in order to keep the software tuned with the latest technology."}
-{"Tag": "software", "Quesion": "What are CASE tools?", "Answers": " CASE stands for Computer Aided Software Engineering. CASE tools are set of automated software application programs, which are used to support, accelerate and smoothen the SDLC activities."}]
-
+]
